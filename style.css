@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --main-font: 'Poppins', 'sans-serif';
+
+  --color-black: #222222;
+  --color-green: #067956;
+  --color-gray: #4D4D4D;
+  --color-light-gray: #838383;
+  --color-white: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-container {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--color-black);
+}
+
+.logo-color {
+  color: var(--color-green);
+}
+
+.nav {
+  display: flex;
+  gap: 45px;
+  font-family: var(--main-font);
+  font-weight: 500;
+  color: var(--color-black);
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+.nav-items a:hover {
+  color: var(--color-green);
+}
+
+.nav-login {
+  transition: scale .2s;
+}
+
+.nav-login a {
+  text-decoration: none;
+  color: var(--color-white);
+  font-weight: 600;
+  background-color: #067956;
+  padding: 10px 20px;
+  border-radius: 8px;
+  scale: .95;
+}
+
+.nav-login:hover {
+  scale: .95
+}
+
+.nav-sign-up {
+  transition: scale .2s;
+}
+
+.nav-sign-up a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--color-black);
+  padding: 10px 20px;
+  border: 2px solid var(--color-green);
+  border-radius: 8px;
+}
+
+.nav-sign-up:hover {
+  scale: .95
+}
