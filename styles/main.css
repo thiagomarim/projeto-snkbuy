@@ -1,1 +1,20 @@
 @import 'header.css';
+@import 'banner.css';
+
+:root {
+  --main-font: 'Poppins', 'sans-serif';
+
+  --color-black: #222222;
+  --color-green: #067956;
+  --color-gray: #4D4D4D;
+  --color-light-gray: #838383;
+  --color-white: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: var(--main-font);
+}

@@ -1,0 +1,14 @@
+.banner {
+  background: url('/assets/banner.svg') center / cover no-repeat;
+}
+
+.banner-text {
+  font-size: 3rem;
+  font-weight: 700;
+  max-width: 775px;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  height: 600px;
+  margin: 0px 75px 0 75px;
+}
