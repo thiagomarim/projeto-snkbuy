@@ -70,3 +70,9 @@
 .nav-sign-up:hover {
   scale: .95
 }
+
+@media (max-width: 800px) {
+  .nav {
+    display: none;
+  }
+}
