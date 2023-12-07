@@ -71,8 +71,52 @@
   scale: .95
 }
 
+.menu-mobile {
+  display: none;
+}
+
 @media (max-width: 800px) {
   .nav {
     display: none;
+    position: absolute;
+  }
+
+  .menu-mobile {
+    display: block;
+  }
+
+  .menu-mobile:hover {
+    cursor: pointer;
+  }
+
+  .nav-container {
+    padding: 20px;
+  }
+
+  .nav.ativo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    top: 70px;
+    left: 0px;
+    background-color: var(--color-white);
+    padding: 20px 10px;
+  }
+
+  .nav-login a, .nav-sign-up a{
+    padding: 5px 10px;
+  }
+
+  .nav-sign-up a:hover {
+    color: var(--color-green);
+  }
+
+  .nav-login a:hover {
+    color: var(--color-black);
+  }
+
+  .nav-login:hover, .nav-sign-up:hover {
+    scale: 1;
   }
 }
