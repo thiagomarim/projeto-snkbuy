@@ -24,6 +24,7 @@
   font-family: var(--main-font);
   font-weight: 500;
   color: var(--color-black);
+  font-size: 1.1rem;
 }
 
 .nav-items a {

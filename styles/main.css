@@ -1,6 +1,7 @@
 @import 'header.css';
 @import 'banner.css';
 @import 'snk.css';
+@import 'footer.css';
 
 :root {
   --main-font: 'Poppins', 'sans-serif';
@@ -25,5 +26,5 @@ img {
 }
 
 .container {
-  margin: 0px 200px 500px 200px;
+  margin: 0px 200px 0px 200px;
 }
