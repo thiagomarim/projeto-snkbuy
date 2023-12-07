@@ -1,9 +1,9 @@
 .snk-titulo-p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--color-black);
   margin-top: 75px;
   font-family: var(--main-font);
-  font-weight: 400;
+  font-weight: 500;
   color: var(--color-black);
 }
 
