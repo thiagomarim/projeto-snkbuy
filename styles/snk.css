@@ -1,10 +1,12 @@
 .snk-titulo-p {
-  display: flex;
-  justify-content: start;
   font-size: 2rem;
   color: var(--color-black);
   margin-top: 75px;
+  font-family: var(--main-font);
+  font-weight: 400;
+  color: var(--color-black);
 }
+
 
 .snk-catalogo {
   display: flex;
@@ -15,14 +17,14 @@
 
 .snk-items {
   display: flex;
-  position: relative;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  width: 200px;
-  height: 250px;
-  padding: 10px 15px;
+  width: 180px;
+  height: 220px;
+  padding: 10px;
   cursor: pointer;
-  border: 1px solid var(--color-light-gray);
+  border: 1px solid #C9C9C9;
   transition: scale .2s;
 }
 
@@ -31,7 +33,9 @@
 }
 
 .snk-items img {
-  margin-bottom: 10px;
+  max-width: 150px;
+  margin-bottom: 20px;
+  align-self: center;
 }
 
 .snk-titulo {
@@ -44,20 +48,20 @@
   font-size: 1rem;
   font-weight: 400;
   color: #4D4D4D;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .snk-preco {
   /* position: absolute;
   top: 302px;
   left: 30px; */
-  max-width: 100px;
+  max-width: 80px;
   padding: 5px 10px;
   border-radius: 8px;
   background-color: var(--color-green);
   color: var(--color-white);
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 @media (max-width: 1550px) {
